@@ -21,9 +21,9 @@
     ["name"=>"Kokoci","address"=>"Ciciko","age"=>"22" ],
 ];
 //echo $person[0]['name']." ".$person[0]['address']." ".$person[0]['age']." | ";
-
+//count digunakan untuk mengetahui jumlah array, sama seperti di java menggunakan .length()
 for ($i=0; $i < count($person); $i++) { 
   echo $person[$i]['name']." ".$person[$i]['address']." ".$person[$i]['age']." | ";
-  
+
 }
 ?>
